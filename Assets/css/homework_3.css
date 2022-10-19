@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__text-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.header__text-2 {
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.section {
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 622px;
+    height: 439px;
+    border: 1px solid #6F6D6D;
+
+}
+.section__text {
+    margin-top: 64px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 64px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.section__form {
+    display: flex;
+    margin-left: 64px;
+    margin-top: 43px;
+}
+.section__from2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+.section__from__input {
+    width: 237px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.section__from__input1 {
+    width: 237px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.section__from__input2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 24px;
+    width: 497px;
+    height: 40px;
+}
+.section__button {
+    margin-top: 24px;
+    margin-left: 64px;
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
